@@ -1,0 +1,7 @@
+运行：
+1.运行 05建停用词表.py
+2.运行 pretreatment.py,将dictionary1-4初始化为有一个空列表的json文件
+3.运行 03建立词典.py（对origin-data中的数据进行标准化(调用pretreatment的Standard类)后，对热度最高20%数据通过LDA(调用LDA.py的KeyAnalysis类)提取关键词）
+  每次修改运行的file编号和LDA中存入的dictionary编号
+  运行4次得到direction1-4
+4.运行 04词典去重.py,得到最终词典direction1-4

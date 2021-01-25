@@ -1,0 +1,6 @@
+运行：
+1.运行01.py，获得data/video.json，即获取以“疫”为关键词搜索出的前1000个视频的aid,上传时间，url（含BV号）,标题
+2.运行02.py，获得data/video_1.json，通过BV号从接口获取所有视频cid
+3.运行03.py，获得data/Danmu.json，获得所有视频弹幕
+4.运行04.py，获得data/All_Bili.json，获得视频评论、信息，整理最终信息
+5.运行05.py，获得data/Bili_1-4，获得按时间分类的四个视频文件
